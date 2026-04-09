@@ -1,4 +1,7 @@
-// Em Go, a conversão de tipos é feita explicitamente. Para converter um int para float64, usamos a sintaxe: float64(a)
+// O que é conversão de tipos em Go?
+// A conversão de tipos é o processo de transformar um valor de um tipo de dado para outro tipo de dado.
+// Em Go, a conversão de tipos é feita explicitamente.
+// Para converter um int para float64, usamos a sintaxe: float64(a) - 'a' é a variável que queremos converter.
 package main
 
 import "fmt"

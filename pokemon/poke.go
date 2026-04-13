@@ -5,6 +5,7 @@
 // POST: adiciona um novo registro
 // DELETE: remove um registro
 // PUT e PATCH: editar um registro
+// Criar 3 estruturas para consumir dados: response; pokemon; pokemonSpecies
 
 package main
 
@@ -33,4 +34,18 @@ func main() {
 
 	//utilizar string para converter bytes em string
 	fmt.Println(string(responseData))
+}
+
+type response struct {
+	nome string 		`json:"name"`
+	pokemon []pokemon	`json:"pokemon_entries"`
+}
+
+type pokemon struct {
+	numero int				`json:"entry_number"`
+	especie pokemonSpecies	`json:"pokemon_species"`
+}
+
+type pokemonSpecies struct {
+	nome string `json:"name"`
 }

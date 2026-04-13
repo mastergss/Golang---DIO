@@ -2,7 +2,7 @@
     "usuarios": [
         {
             "Nome" : "Maria",
-            "Tipo" : "Leitor(a)",
+            "Tipo" : "Leitora",
             "Idade": 30,
             "Social": {
                 "Facebook" : "http://facebook.com",
